@@ -2,7 +2,8 @@
 <HTML>
 
 <HEAD>
-    <TITLE>HTML Art</TITLE>
+    <TITLE>Sentience</TITLE>
+    <link rel="icon" href="animePng.png" />
 <link rel="stylesheet" href="styles.css">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap" rel="stylesheet">
@@ -15,7 +16,7 @@
     <p>This</p>
     <p>artwork was reborn</p>
     <div class="inlineDiv">
-    <p id="txt">1</p>
+    <p id="txt">0</p>
     <p>seconds ago.</p>
     </div>
 </div>
@@ -39,13 +40,6 @@
             function start() {
                 interval = window.setInterval(run, delay);
             }
-
-            // exports
-            // This actually creates a function that our counter can call
-            // you'll see it used below.
-            //
-            // The other functions above cannot be accessed from outside
-            // this function.
             this.start = start;
         }
         var elem = document.getElementById("txt");
