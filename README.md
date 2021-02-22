@@ -6,7 +6,6 @@ Based off: https://superrare.co/artwork-v2/sentience-19580
 
 (More or Less) Final Result:
 
-
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
